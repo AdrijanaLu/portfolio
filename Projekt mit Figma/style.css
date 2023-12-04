@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Fuggles&family=Great+Vibes&family=Indie+Flower&family=Lobster&family=Mooli&family=Poppins:wght@700&family=Roboto+Condensed&family=The+Nautigal&family=Tilt+Prism&display=swap');
+body {
+    background-color: black !important;
+    width: 98vw;
+}
+/* header Teil */
+p {
+    font-family: 'Poppins', sans-serif;
+}
+#title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+    margin: 20px 0px 50px 0px;
+    font-family: 'Great Vibes', cursive;
+}
+header>div {
+    height: 85vh;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.text-1 {
+    width: 100%;
+}
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* sreen Große bis 480px, ganz klein */
+@media screen  and (max-width:480px) {
+    header article:nth-of-type(1) {
+        border: 1px solid rgb(93, 93, 93);
+        width: 60%;
+        height: 35%;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    header article:nth-of-type(2) {
+        width: 100%;
+        height: 70%;
+        padding: 10px;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius:400px;
+        padding: 4%;
+    }
+    .profil-bild {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1081869160/de/foto/sie-ist-sehr-vertraut-mit-der-fortgeschrittenen-welt.jpg?s=612x612&w=0&k=20&c=_JToUaOn795KfBVWFJpH7DyiUtFtpyXFMAN3L6ikrP8=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 400px;
+    }
+}
+/* sreen Große bis 750, small */
+@media screen  and (min-width:481px) and (max-width:750px) {
+    header>div {
+        height: 60vh;
+        padding: 5% 2%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    header article:nth-of-type(1) {
+        width: 30%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin-bottom: 50px;
+    }
+    header article:nth-of-type(2) {
+        width: 55%;
+        height: 95%;
+        padding: 10px;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius:400px;
+        padding: 4%;
+    }
+    .profil-bild {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1081869160/de/foto/sie-ist-sehr-vertraut-mit-der-fortgeschrittenen-welt.jpg?s=612x612&w=0&k=20&c=_JToUaOn795KfBVWFJpH7DyiUtFtpyXFMAN3L6ikrP8=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 400px;
+    }
+}
+
+/* sreen Große bis 992px, medium */
+@media screen  and (min-width:751px) and (max-width:992px) {
+    header>div {
+        height: 85vh;
+        padding: 5% 2%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    header article:nth-of-type(1) {
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin-bottom: 50px;
+    }
+    header article:nth-of-type(2) {
+        width: 60%;
+        height: 95%;
+        padding: 10px;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius:400px;
+        padding: 4%;
+    }
+    .profil-bild {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1081869160/de/foto/sie-ist-sehr-vertraut-mit-der-fortgeschrittenen-welt.jpg?s=612x612&w=0&k=20&c=_JToUaOn795KfBVWFJpH7DyiUtFtpyXFMAN3L6ikrP8=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 400px;
+    }
+}
+
+/* sreen Große von 993px bis 1200, large */
+@media screen  and (min-width:993px) and (max-width:1200px) {
+    header>div {
+        height: 100vh;
+        padding: 2% 2%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    header article:nth-of-type(1) {
+        width: 30%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin-bottom: 70px;
+    }
+    header article:nth-of-type(2) {
+        width: 60%;
+        height: 95%;
+        padding: 10px;
+    }
+    .text-1>h1 {
+        font-size: xx-large;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius:400px;
+        padding: 4%;
+    }
+    .profil-bild {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1081869160/de/foto/sie-ist-sehr-vertraut-mit-der-fortgeschrittenen-welt.jpg?s=612x612&w=0&k=20&c=_JToUaOn795KfBVWFJpH7DyiUtFtpyXFMAN3L6ikrP8=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 400px;
+    }
+} 
+
+/* sreen Große von 1201px, xlarge */
+@media screen  and (min-width:1201px) {
+    header>div {
+        height: 100vh;
+        padding: 0% 2%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    header article:nth-of-type(1) {
+        width: 35%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: flex-end;
+        margin-bottom: 50px;
+    }
+    header article:nth-of-type(2) {
+        width: 55%;
+        height: 100%;
+        padding: 10px;
+    }
+    .pic {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius:400px;
+        padding: 4%;
+    }
+    .profil-bild {
+        width: 100%;
+        height: 100%;
+        background-image: url(https://media.istockphoto.com/id/1081869160/de/foto/sie-ist-sehr-vertraut-mit-der-fortgeschrittenen-welt.jpg?s=612x612&w=0&k=20&c=_JToUaOn795KfBVWFJpH7DyiUtFtpyXFMAN3L6ikrP8=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 400px;
+    }
+} 
+
+/* main Teil */
+main {
+    color: rgb(208, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* media-query - erste section - ganz klein und small zusammen (bis 750px)  */
+@media screen and (max-width:750px) {
+    /* prva sekcija */
+    .meet-me {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .infos article {
+        margin:20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aussen {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(103, 103, 103);
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .innen {
+        width: 100%;
+        height: 100%;
+        background-color: springgreen;
+        border-radius: 50%;
+
+    }
+}
+
+/* media-query - erste section - medium and large zusammen (von 751px bis 1200px)  */
+@media screen and (min-width:751px) and (max-width:1200px) {
+    /* prva sekcija */
+    .meet-me {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+    .text {
+        width: 80%;
+        text-align: center;
+    }
+    .infos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    .infos article {
+        margin:20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aussen {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(103, 103, 103);
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .innen {
+        width: 100%;
+        height: 100%;
+        background-color: springgreen;
+        border-radius: 50%;
+
+    }
+}
+
+/* media-query - erste section - ganz groß  */
+@media screen and (min-width:1201px) {
+    /* prva sekcija */
+    .meet-me {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+        font-size: x-large;
+    }
+    .text {
+        width: 70%;
+        text-align: center;
+    }
+    .infos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    .infos article {
+        margin:20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aussen {
+        width: 45px;
+        height: 45px;
+        background-color: rgb(103, 103, 103);
+        padding: 15px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .innen {
+        width: 100%;
+        height: 100%;
+        background-color: springgreen;
+        border-radius: 50%;
+
+    }
+}
+/* Meet me Teil ist fertig */
+
+/* What I do - card Teil */
+.cards {
+    width: 80%;
+    margin-bottom: 35px;
+}
+.card {
+    background-color: rgb(38, 38, 38) !important;
+}
+.card-body {
+    min-height: 120px;
+    color: darkgray !important;
+}
+.card>img {
+    width: 30px;
+    background-color: springgreen;
+    border-radius: 5%;
+}
+.w-i-d {
+    text-align: center;
+    margin-bottom: 30px !important;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(156, 156, 156);
+}
+@media screen and (max-width:770px) {
+    .cards {
+        width: 70%;
+    }
+}
+/* my skills */
+.my-skills {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+}
+.circle-con {
+    width: 100%;
+    background-color: rgb(38, 38, 38) !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.circle-con article {
+    background-color: rgb(55, 55, 55);
+    width: 170px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+.percent {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(55, 55, 55);
+    position: relative;
+}
+.first, .second {
+    height: 35px;
+    background-color: rgb(55, 55, 55);
+    position: absolute;
+    top: -35%;
+    left: 50%;
+}
+.first {
+    width: 2px;
+    
+}
+.second {
+    width: 10px;
+}
+.third, .fourth {
+    width: 75px;
+    background-color: rgb(55, 55, 55);
+    position: absolute;
+    top: -35%;
+    right: -35%;
+}
+.third {
+    height: 65px;
+}
+.fourth {
+    height: 105px;
+}
+.circle-con article p {
+    color: springgreen;
+    font-weight: bold;
+}
+/* last section */
+.g-i-t {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    color: darkgrey;
+}
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    background-color: black !important;
+    width: 48%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+textarea {
+    background-color: black !important;
+    width: 100%;
+}
+button {
+    justify-self: start;
+    color: rgb(96, 96, 96);
+    /* oft ist nicht gezeigt, deswegen hat !important */
+    padding: 10px !important;
+    border: 1px solid rgb(96, 96, 96);
+    margin-top: 15px !important;
+    border-radius: 15% !important;
+}
+button:hover {
+    background-color: springgreen;
+    color: white;
+}
+@media screen and (max-width: 550px) {
+    form div:nth-of-type(1), form div:nth-of-type(2) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input {
+        width: 100%;
+    }
+}
+footer {
+    width: 100%;
+    color: darkgray;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+footer>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.to-top {
+    padding: 7px;
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+.to-top:hover {
+    border: 1px solid rgb(73, 73, 73);
+}
+.copyr {
+    display: flex;
+}
+.al {
+    color: rgb(73, 73, 73);
+}
+.map-mama {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 55px;
+}
+.map {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
